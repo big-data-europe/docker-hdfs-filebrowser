@@ -1,4 +1,4 @@
-FROM earthquakesa/hue-build-env:branch-3.9
+FROM earthquakesan/hue-build-env:branch-3.9
 MAINTAINER Ivan Ermilov <ivan.s.ermilov@gmail.com>
 
 RUN mkdir -p /opt/hue
