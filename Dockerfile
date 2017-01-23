@@ -1,11 +1,11 @@
-FROM earthquakesan/hue-build-env:branch-3.9
+FROM earthquakesan/hue-build-env:branch-3.11
 MAINTAINER Ivan Ermilov <ivan.s.ermilov@gmail.com>
 
 RUN mkdir -p /opt/hue
 WORKDIR /opt/hue
 
 RUN git clone https://github.com/cloudera/hue.git ./
-RUN git checkout branch-3.9
+RUN git checkout branch-3.11
 RUN make apps
 
 ADD entrypoint.sh /entrypoint.sh
