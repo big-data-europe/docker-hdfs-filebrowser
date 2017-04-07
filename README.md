@@ -2,6 +2,11 @@
 
 This docker image runs HDFS FileBrowser from Cloudera Hue.
 
+# Supported Versions
+
+* 3.9
+* 3.11
+
 # Dependencies
 * earthquakesan/ant
 * earthquakesan/hue-build-env
