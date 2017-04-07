@@ -11,6 +11,8 @@ RUN make apps
 ADD entrypoint.sh /entrypoint.sh
 RUN chmod a+x /entrypoint.sh
 
+COPY common_header.mako /opt/hue/desktop/core/src/desktop/templates/common_header.mako
+
 EXPOSE 8088
 
 ENTRYPOINT ["/entrypoint.sh"]
