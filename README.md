@@ -1,3 +1,5 @@
+[![Gitter chat](https://badges.gitter.im/gitterHQ/gitter.png)](https://gitter.im/big-data-europe/Lobby)
+
 # bde2020/hdfs-filebrowser
 
 This docker image runs HDFS FileBrowser from Cloudera Hue.
